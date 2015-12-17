@@ -1,0 +1,38 @@
+{
+  "name": "servidor-xmpp-restapi",
+  "version": "0.0.1",
+  "description": "API REST para o servidor xmpp",
+  "keywords": "API REST epilogue servidor-xmpp",
+  "author": "Léo Felippe <leofelippedias@hotmail.com.br>",
+  "main": "./index.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+   
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "path": "git@github.com:umdez/servidor-xmpp-restapi.git"
+    }
+  ],
+  "homepage": "https://github.com/umdez/servidor-xmpp-restapi",
+  "bugs": "https://github.com/umdez/servidor-xmpp-restapi/issues",
+  "maintainers": [
+    {
+      "name": "umdez",
+      "email": "leofelippedias@hotmail.com.br",
+      "url": "http://meu-dominio.com.br"
+    }
+  ],
+  "contributors": [
+    "Leo Felippe"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "bin": "./index.js"
+}
