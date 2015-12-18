@@ -17,7 +17,8 @@
  *  - api.activate (Obrigatório) Se vamos ativar nosso serviço REST.
  *  - api.port (Obrigatório) A porta ao qual o serviço REST vai escutar por requisições.
  *  - api.cors (Obrigatório) O serviço cors.
- *  - api.cors.hosts (Obrigatório) Endereços permitidos pelo cors. Por questões de segurança, não utilize * para o uso final.
+ *  - api.cors.hosts (Obrigatório) Endereços permitidos pelo cors. Por questões de segurança, 
+ *                                 não utilize * para a fase de produção.
  */
 module.exports = {
   
@@ -39,7 +40,8 @@ module.exports = {
   "activate": true, 
   "port": 8081,     // A porta ao qual iremos escutar por requisições.
   "cors": {
-    "hosts": ["*"]  // Utilizado para teste, não use * para o uso final.
+    "hosts": ["*"]  // Utilizado para teste, não use * para a fase de produção. 
+                    // Utilize apenas na fase de desenvolvimento e testes.
   }
 }
   
